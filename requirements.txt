@@ -1,0 +1,6 @@
+streamlit
+playwright
+pandas
+streamlit-autorefresh
+SQLAlchemy
+psycopg2-binary

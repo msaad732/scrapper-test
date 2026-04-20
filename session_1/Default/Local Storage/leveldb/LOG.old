@@ -1,0 +1,17 @@
+2026/04/20-19:47:38.529 35c4 Reusing MANIFEST C:\Users\Mahnoor Shafiq\Desktop\birdeye\session_1\Default\Local Storage\leveldb/MANIFEST-000001
+2026/04/20-19:47:38.562 35c4 Recovering log #31
+2026/04/20-19:47:38.564 35c4 Level-0 table #34: started
+2026/04/20-19:47:38.605 35c4 Level-0 table #34: 18754 bytes OK
+2026/04/20-19:47:38.606 35c4 Recovering log #34
+2026/04/20-19:47:38.610 35c4 Reusing old log C:\Users\Mahnoor Shafiq\Desktop\birdeye\session_1\Default\Local Storage\leveldb/000034.log 
+2026/04/20-19:47:38.632 35c4 Delete type=0 #31
+2026/04/20-19:47:38.633 35c4 Delete type=2 #35
+2026/04/20-19:47:38.654 3308 Compacting 4@0 + 1@1 files
+2026/04/20-19:47:38.690 3308 Generated table #35@0: 100 keys, 30876 bytes
+2026/04/20-19:47:38.690 3308 Compacted 4@0 + 1@1 files => 30876 bytes
+2026/04/20-19:47:38.707 3308 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/04/20-19:47:38.713 3308 Delete type=2 #24
+2026/04/20-19:47:38.713 3308 Delete type=2 #26
+2026/04/20-19:47:38.713 3308 Delete type=2 #28
+2026/04/20-19:47:38.714 3308 Delete type=2 #32
+2026/04/20-19:47:38.714 3308 Delete type=2 #34

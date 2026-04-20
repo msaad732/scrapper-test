@@ -1,0 +1,4 @@
+2026/04/20-20:38:10.143 3300 Reusing MANIFEST C:\Users\Mahnoor Shafiq\Desktop\birdeye\session_3\Default\Session Storage/MANIFEST-000001
+2026/04/20-20:38:10.144 3300 Recovering log #3
+2026/04/20-20:38:11.015 3300 Level-0 table #3: started
+2026/04/20-20:38:11.015 3300 Level-0 table #3: 0 bytes IO error: C:\Users\Mahnoor Shafiq\Desktop\birdeye\session_3\Default\Session Storage/000003.ldb: Unable to create writable file (ChromeMethodBFE: 9::NewWritableFile::16)
