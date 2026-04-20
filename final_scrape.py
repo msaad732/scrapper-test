@@ -102,7 +102,7 @@ def run_scrape(token_addr, session_path):
                     try:
                         json_data = response.json()
                         supply = json_data.get('data', {}).get('token', {}).get('total_supply')
-                            if supply: scraped_data["total_supply"] = float(supply)
+                        if supply: scraped_data["total_supply"] = float(supply)
                     except: pass
                 if ("holders" in response.url or "top_traders" in response.url) and response.status == 200:
                     try:
