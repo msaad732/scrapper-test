@@ -89,15 +89,12 @@ def run_scrape(token_addr, session_path):
     
     with sync_playwright() as p:
         try:
-            context = playwright.chromium.launch_persistent_context(
-                user_data_dir=session_path,
-                headless=True,  # YEH SAB SE ZAROORI HAI!
-                args=[
-        '--no-sandbox',
-        '--disable-dev-shm-usage',
-        '--disable-blink-features=AutomationControlled'
-    ]
-)
+            context = p.chromium.launch_persistent_context(
+                session_path, headless=IS_SERVER,
+                ignore_default_args=["--enable-automation"],
+                args=["--disable-blink-features=AutomationControlled", "--no-sandbox"],
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+            )
             page = context.new_page()
             
             def handle_response(response):
